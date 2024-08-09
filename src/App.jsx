@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
+import Call from "./components/Call";
+import Features from "./components/Features";
+import Clients from "./components/Clients";
 
 
 //let's create a context;
@@ -17,12 +20,15 @@ function App() {
   return (
     <>
     <themeContext.Provider value={theme}>
-    <Navbar></Navbar>
-    <Home></Home>
-    <About></About>
-    <Services></Services>
+      <Navbar></Navbar>
+      <Home></Home>
+      <About></About>
+      <Services></Services>
+      <Call></Call>
+      <Features></Features>
+      <Clients></Clients>
     </themeContext.Provider>
-      
+
     </>
   )
 }
