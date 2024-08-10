@@ -77,7 +77,6 @@ const Clients = () => {
               </div>
             </div>
           ))}
-          ;
         </div>
       </div>
     </ClientsSection>
