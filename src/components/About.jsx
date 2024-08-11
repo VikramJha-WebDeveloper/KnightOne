@@ -9,7 +9,7 @@ const description = "Necessitatibus eius consequatur ex aliquid fuga eum quidem 
 
 const About = () =>{
     const theme = useContext(themeContext);
-    return(<>
+    return(<div id="about">
     <div className="container py-5">
         <div className="row">
             <div className="col col-12">
@@ -32,7 +32,7 @@ const About = () =>{
         </div>
     </div>
       
-    </>);
+    </div>);
 };
 
 export default About; 

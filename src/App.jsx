@@ -12,6 +12,7 @@ import Stats from "./components/Stats";
 import Pricing from "./components/Pricing";
 import Questions from "./components/Questions";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 //let's create a context;
@@ -38,6 +39,7 @@ function App() {
       <Pricing></Pricing>
       <Questions></Questions>
       <Contact></Contact>
+      <Footer></Footer>
     </themeContext.Provider>
     </>
   )

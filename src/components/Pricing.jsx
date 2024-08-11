@@ -55,7 +55,7 @@ const Pricing = () =>{
         color: ${theme.themeColor};
       }
     `
-    return(<PriceSection>
+    return(<PriceSection id="pricing">
       <div className="container py-5">
         <div className="row">
             <div className="col col-12">

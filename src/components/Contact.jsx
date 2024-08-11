@@ -29,7 +29,7 @@ const Contact = () => {
       }
     `
     
-    return(<ContactSection>
+    return(<ContactSection id="contact">
       <div className="container py-5">
         <div className="row">
             <div className="col col-12">

@@ -24,25 +24,23 @@ const Navbar = () => {
             <div id="navCollapse" className="collapse navbar-collapse">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a href="#" className="nav-link px-3">Home</a>
+                        <a href="#home" className="nav-link px-3">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link px-3">About</a>
+                        <a href="#about" className="nav-link px-3">About</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link px-3">Services</a>
+                        <a href="#services" className="nav-link px-3">Services</a>
                     </li>
+                    
                     <li className="nav-item">
-                        <a href="#" className="nav-link px-3">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link px-3">Pricing</a>
+                        <a href="#pricing" className="nav-link px-3">Pricing</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link px-3">Dropdown</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link px-3">Contact</a>
+                        <a href="#contact" className="nav-link px-3">Contact</a>
                     </li>
                 </ul>
                 <button className={`btn text-light`} style={{backgroundColor: `${theme.themeColor}`}}>Get Started</button>
